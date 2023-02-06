@@ -22,40 +22,39 @@
   </head>
   <body>
     <header>
-      <section class="header">
-        <div class="container header-container">
-          <nav class="header_nav">
-            <a href="index.html" class="header_logo"
-              ><span class="logo_first_part">Web</span>Studio</a
+    <section class="header">
+        <div class="container header__container">
+          <nav class="header__nav">
+            <a href="index.html" class="logo"
+              ><span class="logo__first-part">Web</span
+              ><span class="logo__second-part">Studio</span></a
             >
-            <ul class="header_menu_list">
-              <li class="header_menu_item">
-                <a href="index.html" class="header_menu_link">Agencja</a>
-              </li>
-              <li class="header_menu_item">
-                <a
-                  href="portfolio.html"
-                  class="header_menu_link is-activeB is-active"
-                  >Portfolio</a
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="index.html" class="header__menu-link"
+                  >Agencja</a
                 >
               </li>
-              <li class="header_menu_item">
-                <a href="" class="header_menu_link">Kontakt</a>
+              <li class="header__menu-item">
+                <a href="portfolio.html" class="header__menu-link is-active2">Portfolio</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="" class="header__menu-link">Kontakt</a>
               </li>
             </ul>
           </nav>
-          <ul class="header_contact_list">
-            <li class="header_contact_item">
-              <a href="mailto:info@devstudio.com" class="header_contact_link">
-                <svg class="icon header-icon" width="16" height="12">
+          <ul class="header__contact-list">
+            <li class="header__contact-item">
+              <a href="mailto:info@devstudio.com" class="header__contact-link">
+                <svg class="icon header__icon" width="16" height="12">
                   <use href="./images/icon.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com
               </a>
             </li>
-            <li class="header_contact_item">
-              <a href="tel:+48111111111" class="header_contact_link">
-                <svg class="icon header-icon" width="10" height="16">
+            <li class="header__contact-item">
+              <a href="tel:+48111111111" class="header__contact-link">
+                <svg class="icon header__icon" width="10" height="16">
                   <use href="./images/icon.svg#icon-smartphone"></use>
                 </svg>
                 +48111111111
@@ -67,23 +66,23 @@
     </header>
 
     <main>
-      <section class="portfolio-filters section">
-        <div class="container footer-container">
-          <ul class="filters_list">
-            <li class="filters_item">
-              <button class="filters_button" type="button">Wszystkie</button>
+      <section class="section">
+        <div class="container filters">
+          <ul class="filters__list">
+            <li class="filters__item">
+              <button class="filters__button" type="button">Wszystkie</button>
             </li>
-            <li class="filters_item">
-              <button class="filters_button" type="button">Strony</button>
+            <li class="filters__item">
+              <button class="filters__button" type="button">Strony</button>
             </li>
-            <li class="filters_item">
-              <button class="filters_button" type="button">Aplikacje</button>
+            <li class="filters__item">
+              <button class="filters__button" type="button">Aplikacje</button>
             </li>
-            <li class="filters_item">
-              <button class="filters_button" type="button">Design</button>
+            <li class="filters__item">
+              <button class="filters__button" type="button">Design</button>
             </li>
-            <li class="filters_item">
-              <button class="filters_button" type="button">Marketing</button>
+            <li class="filters__item">
+              <button class="filters__button" type="button">Marketing</button>
             </li>
           </ul>
 
@@ -276,81 +275,84 @@
       </section>
     </main>
 
-    <footer class="footer">
+   <footer class="footer">
       <div class="container">
-        <div class="footer_display_container">
-          <div class="footer-container">
-            <a href="" class="footer_logo">
-              <span class="logo_first_part">Web</span>Studio</a
+        <div class="footer__container">
+          <div class="footer__element">
+            <a href="" class="logo logo__footer">
+              <span class="logo__first-part">Web</span
+              ><span class="logo__second-part logo__second-part--white"
+                >Studio</span
+              ></a
             >
             <address>
-              <ul class="footer_list">
+              <ul class="footer__address-list">
                 <li>
                   <a
-                    class="footer_link footer-localisation"
+                    class="footer__address-link footer__address-link--white"
                     href="https://goo.gl/maps/kYdDBKaU15SzFSr7A"
                     target="_blank"
                     >m. Warszawa, Aleje Jerozolimskie 21</a
                   >
                 </li>
                 <li>
-                  <a class="footer_link" href="mailto:info@example.com"
+                  <a class="footer__address-link" href="mailto:info@example.com"
                     >info@example.com</a
                   >
                 </li>
                 <li>
-                  <a class="footer_link" href="tel:+48111111111">
+                  <a class="footer__address-link" href="tel:+48111111111">
                     +48 111 111 111</a
                   >
                 </li>
               </ul>
             </address>
           </div>
-          <div class="container footer-icon-container">
-            <h2 class="joinus_tittle">DOŁĄCZ DO NAS</h2>
-            <ul class="joinus_list">
-              <li class="joinus_item">
-                <a href="#" target="_blank" class="joinus_link">
-                  <svg class="icon joinus-icon" width="44" height="44">
+          <div class="footer__element">
+            <h2 class="footer__joinus-tittle">DOŁĄCZ DO NAS</h2>
+            <ul class="footer__joinus-list">
+              <li class="footer__joinus-item">
+                <a href="#" target="_blank" >
+                  <svg class=" footer__joinus-icon" width="44" height="44">
                     <use href="./images/icon.svg#icon-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li class="joinus_item">
-                <a href="#" target="_blank" class="joinus_link">
-                  <svg class="icon joinus-icon" width="44" height="44">
+                <a href="#" target="_blank" >
+                  <svg class=" footer__joinus-icon" width="44" height="44">
                     <use href="./images/icon.svg#icon-twitter"></use>
                   </svg>
                 </a>
               </li>
               <li class="joinus_item">
-                <a href="#" target="_blank" class="joinus_link">
-                  <svg class="icon joinus-icon" width="44" height="44">
+                <a href="#" target="_blank">
+                  <svg class=" footer__joinus-icon" width="44" height="44">
                     <use href="./images/icon.svg#icon-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li class="joinus_item">
-                <a href="#" target="_blank" class="joinus_link">
-                  <svg class="icon joinus-icon" width="44" height="44">
+                <a href="#" target="_blank">
+                  <svg class=" footer__joinus-icon" width="44" height="44">
                     <use href="./images/icon.svg#icon-linkedin"></use>
                   </svg>
                 </a>
               </li>
             </ul>
           </div>
-          <div class="container footer-newsletter-container">
-            <h2 class="newsletter_tittle">ZAPISZ SIĘ DO NEWSLETTERA</h2>
-            <form class="newsletter_form">
+          <div class="footer__element">
+            <h2 class="footer__newsletter-tittle">ZAPISZ SIĘ DO NEWSLETTERA</h2>
+            <form class="footer__newsletter-form">
               <input
                 name="newsletter"
                 type="email"
                 placeholder="E-mail"
-                class="newsletter_input"
+                class="footer__newsletter-input"
               />
-              <button type="submit" class="newsletter_button">
+              <button type="submit" class="footer__newsletter-button">
                 <h2>Zapisz się</h2>
-                <svg class="newsletter_button_icon" width="24" height="24">
+                <svg class="footer__newsletter-icon" width="24" height="24">
                   <use href="./images/icon.svg#icon-send"></use>
                 </svg>
               </button>
